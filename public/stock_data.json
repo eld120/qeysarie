@@ -1,0 +1,123 @@
+[
+    {
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "price": 175.89,
+      "date": "2024-07-26"
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft Corporation",
+      "price": 334.27,
+      "date": "2024-07-26"
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon.com, Inc.",
+      "price": 137.85,
+      "date": "2024-07-26"
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet Inc.",
+      "price": 126.87,
+      "date": "2024-07-26"
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla, Inc.",
+      "price": 261.18,
+      "date": "2024-07-26"
+    },
+    {
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "price": 298.57,
+      "date": "2024-07-26"
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "price": 471.63,
+      "date": "2024-07-26"
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase & Co.",
+      "price": 147.92,
+      "date": "2024-07-26"
+    },
+    {
+      "ticker": "V",
+      "company": "Visa Inc.",
+      "price": 233.40,
+      "date": "2024-07-26"
+    },
+    {
+      "ticker": "UNH",
+      "company": "UnitedHealth Group Incorporated",
+      "price": 497.00,
+      "date": "2024-07-26"
+    }, 
+    
+        {
+          "ticker": "WMT",
+          "company": "Walmart Inc.",
+          "price": 157.56,
+          "date": "2024-07-26"
+        },
+        {
+          "ticker": "PG",
+          "company": "Procter & Gamble Co.",
+          "price": 155.97,
+          "date": "2024-07-26"
+        },
+        {
+          "ticker": "MA",
+          "company": "Mastercard Incorporated",
+          "price": 404.44,
+          "date": "2024-07-26"
+        },
+        {
+          "ticker": "HD",
+          "company": "The Home Depot, Inc.",
+          "price": 334.62,
+          "date": "2024-07-26"
+        },
+        {
+          "ticker": "JNJ",
+          "company": "Johnson & Johnson",
+          "price": 169.18,
+          "date": "2024-07-26"
+        },
+        {
+          "ticker": "DIS",
+          "company": "The Walt Disney Company",
+          "price": 85.20,
+          "date": "2024-07-26"
+        },
+        {
+          "ticker": "BAC",
+          "company": "Bank of America Corporation",
+          "price": 30.37,
+          "date": "2024-07-26"
+        },
+        {
+          "ticker": "KO",
+          "company": "The Coca-Cola Company",
+          "price": 62.76,
+          "date": "2024-07-26"
+        },
+        {
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
+          "price": 110.41,
+          "date": "2024-07-26"
+        },
+        {
+          "ticker": "PFE",
+          "company": "Pfizer Inc.",
+          "price": 37.68,
+          "date": "2024-07-26"
+        }
+  ]
