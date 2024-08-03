@@ -1,123 +1,427 @@
 [
-    {
+  {
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "price": 175.89,
-      "date": "2024-07-26"
-    },
-    {
+      "date": "2024-07-26",
+      "change": 3.45,
+      "percentage": 1.99,
+      "volume": 100000000
+  },
+  {
       "ticker": "MSFT",
       "company": "Microsoft Corporation",
       "price": 334.27,
-      "date": "2024-07-26"
-    },
-    {
+      "date": "2024-07-26",
+      "change": -2.11,
+      "percentage": -0.63,
+      "volume": 85000000
+  },
+  {
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
       "price": 137.85,
-      "date": "2024-07-26"
-    },
-    {
+      "date": "2024-07-26",
+      "change": 4.82,
+      "percentage": 3.62,
+      "volume": 120000000
+  },
+  {
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "price": 126.87,
-      "date": "2024-07-26"
-    },
-    {
+      "date": "2024-07-26",
+      "change": -1.08,
+      "percentage": -0.85,
+      "volume": 92000000
+  },
+  {
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
       "price": 261.18,
-      "date": "2024-07-26"
-    },
-    {
+      "date": "2024-07-26",
+      "change": 5.23,
+      "percentage": 2.04,
+      "volume": 115000000
+  },
+  {
       "ticker": "META",
       "company": "Meta Platforms, Inc.",
       "price": 298.57,
-      "date": "2024-07-26"
-    },
-    {
+      "date": "2024-07-26",
+      "change": 1.12,
+      "percentage": 0.38,
+      "volume": 98000000
+  },
+  {
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
       "price": 471.63,
-      "date": "2024-07-26"
-    },
-    {
+      "date": "2024-07-26",
+      "change": 12.38,
+      "percentage": 2.69,
+      "volume": 78000000
+  },
+  {
       "ticker": "JPM",
       "company": "JPMorgan Chase & Co.",
       "price": 147.92,
-      "date": "2024-07-26"
-    },
-    {
+      "date": "2024-07-26",
+      "change": 0.56,
+      "percentage": 0.38,
+      "volume": 65000000
+  },
+  {
       "ticker": "V",
       "company": "Visa Inc.",
       "price": 233.40,
-      "date": "2024-07-26"
-    },
-    {
+      "date": "2024-07-26",
+      "change": -3.21,
+      "percentage": -1.36,
+      "volume": 82000000
+  },
+  {
       "ticker": "UNH",
       "company": "UnitedHealth Group Incorporated",
       "price": 497.00,
-      "date": "2024-07-26"
-    }, 
-    
-        {
-          "ticker": "WMT",
-          "company": "Walmart Inc.",
-          "price": 157.56,
-          "date": "2024-07-26"
-        },
-        {
-          "ticker": "PG",
-          "company": "Procter & Gamble Co.",
-          "price": 155.97,
-          "date": "2024-07-26"
-        },
-        {
-          "ticker": "MA",
-          "company": "Mastercard Incorporated",
-          "price": 404.44,
-          "date": "2024-07-26"
-        },
-        {
-          "ticker": "HD",
-          "company": "The Home Depot, Inc.",
-          "price": 334.62,
-          "date": "2024-07-26"
-        },
-        {
-          "ticker": "JNJ",
-          "company": "Johnson & Johnson",
-          "price": 169.18,
-          "date": "2024-07-26"
-        },
-        {
-          "ticker": "DIS",
-          "company": "The Walt Disney Company",
-          "price": 85.20,
-          "date": "2024-07-26"
-        },
-        {
-          "ticker": "BAC",
-          "company": "Bank of America Corporation",
-          "price": 30.37,
-          "date": "2024-07-26"
-        },
-        {
-          "ticker": "KO",
-          "company": "The Coca-Cola Company",
-          "price": 62.76,
-          "date": "2024-07-26"
-        },
-        {
-          "ticker": "XOM",
-          "company": "Exxon Mobil Corporation",
-          "price": 110.41,
-          "date": "2024-07-26"
-        },
-        {
-          "ticker": "PFE",
-          "company": "Pfizer Inc.",
-          "price": 37.68,
-          "date": "2024-07-26"
-        }
-  ]
+      "date": "2024-07-26",
+      "change": 8.50,
+      "percentage": 1.74,
+      "volume": 70000000
+  },
+  {
+      "ticker": "WMT",
+      "company": "Walmart Inc.",
+      "price": 157.56,
+      "date": "2024-07-26",
+      "change": -1.23,
+      "percentage": -0.77,
+      "volume": 88000000
+  },
+  {
+      "ticker": "PG",
+      "company": "Procter & Gamble Co.",
+      "price": 155.97,
+      "date": "2024-07-26",
+      "change": 0.87,
+      "percentage": 0.56,
+      "volume": 74000000
+  },
+  {
+      "ticker": "MA",
+      "company": "Mastercard Incorporated",
+      "price": 404.44,
+      "date": "2024-07-26",
+      "change": 9.12,
+      "percentage": 2.31,
+      "volume": 62000000
+  },
+  {
+      "ticker": "HD",
+      "company": "The Home Depot, Inc.",
+      "price": 334.62,
+      "date": "2024-07-26",
+      "change": -4.58,
+      "percentage": -1.35,
+      "volume": 95000000
+  },
+  {
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "price": 169.18,
+      "date": "2024-07-26",
+      "change": 2.03,
+      "percentage": 1.21,
+      "volume": 81000000
+  },
+  {
+      "ticker": "DIS",
+      "company": "The Walt Disney Company",
+      "price": 85.20,
+      "date": "2024-07-26",
+      "change": -0.35,
+      "percentage": -0.41,
+      "volume": 105000000
+  },
+  {
+      "ticker": "BAC",
+      "company": "Bank of America Corporation",
+      "price": 30.37,
+      "date": "2024-07-26",
+      "change": 0.12,
+      "percentage": 0.40,
+      "volume": 130000000
+  },
+  {
+      "ticker": "KO",
+      "company": "The Coca-Cola Company",
+      "price": 62.76,
+      "date": "2024-07-26",
+      "change": -0.98,
+      "percentage": -1.54,
+      "volume": 79000000
+  },
+  {
+      "ticker": "XOM",
+      "company": "Exxon Mobil Corporation",
+      "price": 110.41,
+      "date": "2024-07-26",
+      "change": 1.56,
+      "percentage": 1.43,
+      "volume": 87000000
+  },
+  {
+      "ticker": "PFE",
+      "company": "Pfizer Inc.",
+      "price": 37.68,
+      "date": "2024-07-26",
+      "change": 0.23,
+      "percentage": 0.61,
+      "volume": 96000000
+  }, 
+  
+  {
+    "company": "Globex Corporation",
+    "ticker": "GLOB",
+    "price": 99.90,
+    "percentage": -0.89,
+    "date": "2024-07-26",
+    "change": -0.89,
+    "volume": 8765432
+  },
+  {  
+    "company": "Widgetron Inc.",
+    "ticker": "WDGT",
+    "price": 45.67,
+    "percentage": 2.45,
+    "date": "2024-07-26",
+    "change": 1.10,
+    "volume": 3456789
+  },
+  {
+    "company": "Quasar Technologies",
+    "ticker": "QSR",
+    "price": 178.50,
+    "percentage": -1.23,
+    "date": "2024-07-26",
+    "change": -2.25,
+    "volume": 2345678
+  },
+  {
+    "company": "Infinity Inc.",
+    "ticker": "INFI",
+    "price": 87.00,
+    "percentage": 0.56,
+    "date": "2024-07-26",
+    "change": 0.48,
+    "volume": 7654321
+  },    
+  {
+    "company": "Zeta Tech",
+    "ticker": "ZETA",
+    "price": 240.12,
+    "percentage": 3.41,
+    "date": "2024-07-26",
+    "change": 7.93,
+    "volume": 5678901
+  },
+  {
+    "company": "Omega Oil & Gas",
+    "ticker": "OMGA",
+    "price": 58.99,
+    "percentage": -0.15,
+    "date": "2024-07-26",
+    "change": -0.09,
+    "volume": 4567812
+  },
+  {  
+    "company": "CorpX Inc.",
+    "ticker": "CRPX",
+    "price": 32.10,
+    "percentage": 2.10,
+    "date": "2024-07-26",
+    "change": 0.67,
+    "volume": 1345679
+  },
+  {
+    "company": "TechnoSolars",
+    "ticker": "TSOL",
+    "price": 115.75,
+    "percentage": -1.76,
+    "date": "2024-07-26",
+    "change": -2.02,
+    "volume": 9012345
+  },
+  {
+    "company": "SectorFive Inc",
+    "ticker": "SFIV",
+    "price": 64.25,
+    "percentage": 0.91,
+    "date": "2024-07-26",
+    "change": 0.58,  
+    "volume": 2765431
+  },
+  {  
+    "company": "BioMedX Inc.",
+    "ticker": "BMED",
+    "price": 92.00,
+    "percentage": -0.43,
+    "date": "2024-07-26",
+    "change": -0.40,
+    "volume": 3123456
+  },
+ 
+  {
+    "company": "Liberty Leisure",
+    "ticker": "LIBY",
+    "price": 158.70,
+    "percentage": -2.00,
+    "date": "2024-07-26",
+    "change": -3.18,
+    "volume": 2541236
+  },  
+  {
+    "company": "Quantum Computing",
+    "ticker": "QCOM",
+    "price": 210.50,
+    "percentage": 1.20,
+    "date": "2024-07-26",
+    "change": 2.49,
+    "volume": 1208654
+  },
+  {
+    "company": "Acme Corporation",
+    "ticker": "ACME",
+    "price": 125.67,
+    "percentage": 1.56,
+    "date": "2024-07-26",
+    "change": 1.92,
+    "volume": 1578900
+  },
+  {
+    "company": "Galactic Tech Inc.",
+    "ticker": "GALT",
+    "price": 378.24,
+    "percentage": -0.78,
+    "date": "2024-07-26",
+    "change": -2.94,
+    "volume": 2784500
+  },
+  {  
+    "company": "Shiny Star Ltd",
+    "ticker": "SSLR",
+    "price": 84.50,
+    "percentage": 2.45,
+    "date": "2024-07-26",
+    "change": 2.06,
+    "volume": 1345800
+  },
+  {
+    "company": "Venturex Inc.",
+    "ticker": "VNTR",
+    "price": 99.95,
+    "percentage": -1.23,
+    "date": "2024-07-26",
+    "change": -1.24,
+    "volume": 2198700
+  },
+  {  
+    "company": "Apex Innovations",
+    "ticker": "APEX",
+    "price": 450.00,
+    "percentage": 0.55,
+    "date": "2024-07-26",
+    "change": 2.48,
+    "volume": 1876500    
+  },
+  {
+    "company": "Blue Ocean Ltd",
+    "ticker": "BLUO",
+    "price": 76.23,
+    "percentage": -3.48,
+    "date": "2024-07-26",
+    "change": -2.68,
+    "volume": 1407200
+  },
+  {  
+    "company": "Quantum Computing Solutions",
+    "ticker": "QCSO",
+    "price": 182.75,
+    "percentage": 1.74,
+    "date": "2024-07-26",
+    "change": 3.16,
+    "volume": 8513800
+  },  
+  {
+    "company": "Green Thumb Bio",
+    "ticker": "GTBN",
+    "price": 147.90,
+    "percentage": -0.14,
+    "date": "2024-07-26",
+    "change": -0.21,
+    "volume": 3150200
+  },
+  {  
+    "company": "Solaris Resources",
+    "ticker": "SOLR",
+    "price": 54.87,
+    "percentage": 2.80,
+    "date": "2024-07-26",
+    "change": 1.51,
+    "volume": 2548600
+  },
+  {
+    "company": "Pinnacle Data Inc.",
+    "ticker": "PDTA",
+    "price": 218.30,
+    "percentage": -0.91,
+    "date": "2024-07-26",
+    "change": -1.99,
+    "volume": 1782300  
+  },
+  {  
+    "company": "Heritage Co.",
+    "ticker": "HERI",
+    "price": 107.55,
+    "percentage": 0.37,
+    "date": "2024-07-26",
+    "change": 0.39,
+    "volume": 1209300
+  },
+  {
+    "company": "Crescent Moon Tech",
+    "ticker": "CMNT",
+    "price": 91.80,
+    "percentage": -2.09,
+    "date": "2024-07-26",
+    "change": -1.92,
+    "volume": 2879100
+  },
+  {  
+    "company": "Trendsetters Inc.",
+    "ticker": "TNDT",
+    "price": 118.86,
+    "percentage": 1.11,
+    "date": "2024-07-26",
+    "change": 1.31,
+    "volume": 1520400
+  },
+  {
+    "company": "Genesis Bioenergy",
+    "ticker": "GBIO",
+    "price": 48.50,
+    "percentage": 4.27,
+    "date": "2024-07-26",
+    "change": 2.00,
+    "volume": 8741200
+  },
+  {  
+    "company": "Fusion Tech Inc.",
+    "ticker": "FUSN",
+    "price": 310.70,
+    "percentage": -0.22,
+    "date": "2024-07-26",
+    "change": -0.68,
+    "volume": 1356800
+  }
+]
