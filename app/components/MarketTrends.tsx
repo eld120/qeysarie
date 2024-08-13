@@ -31,6 +31,7 @@ function MarketTrends() {
             return a.percentage - b.percentage
         }
     }).slice(0, 11)
+    const displayStocks = sortedStocks || []
     if (isLoading) {
         return <div>Loading...</div>
     }
@@ -56,7 +57,7 @@ function MarketTrends() {
             </div>
             <div>
                 <ul>
-                    {sortedStocks?.map(stock => (
+                    {displayStocks?.map(stock => (
                         <li><StockCard key={stock.ticker}  {...stock} /></li>)
                     )}
                 </ul>
