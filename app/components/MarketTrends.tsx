@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { StockData } from './StockCard';
-import { StockCard } from './StockCard';
+import StockListComponent from './StockListComponent';
+
+
 const queryFunction = async () => {
     const response = await fetch('/stock_data.json')
     if (!response.ok) {
@@ -16,7 +18,7 @@ function MarketTrends() {
 
 
     const { isLoading, error, data } = useQuery<StockData[], Error>({
-        queryKey: ['allStocks', activeTrend],
+        queryKey: ['allStocks'],
         queryFn: queryFunction
 
 
@@ -32,6 +34,7 @@ function MarketTrends() {
         }
     }).slice(0, 11)
     const displayStocks = sortedStocks || []
+
     if (isLoading) {
         return <div>Loading...</div>
     }
@@ -58,7 +61,7 @@ function MarketTrends() {
             <div>
                 <ul>
                     {displayStocks?.map(stock => (
-                        <li><StockCard key={stock.ticker}  {...stock} /></li>)
+                        <StockListComponent key={stock.ticker}  {...stock} />)
                     )}
                 </ul>
             </div>
