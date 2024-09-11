@@ -4,27 +4,25 @@ import { StockData } from './StockCard';
 import StockListComponent from './StockListComponent';
 
 
-const queryFunction = async () => {
-    const response = await fetch('/stock_data.json')
-    if (!response.ok) {
-        throw new Error('WOMP WAGON')
-    }
-    return response.json()
-}
+// const queryFunction = async () => {
+//     const response = await fetch('/stock_data.json')
+//     if (!response.ok) {
+//         throw new Error('WOMP WAGON')
+//     }
+//     return response.json()
+// }
 
-function MarketTrends() {
+function MarketTrends(props: StockData[]) {
     // const [trend, setTrend] = useState(['mostActive'])
     const [activeTrend, setActiveTrend] = useState<'mostActive' | 'gainers' | 'losers' | 'trending'>('mostActive');
 
 
-    const { isLoading, error, data } = useQuery<StockData[], Error>({
-        queryKey: ['allStocks'],
-        queryFn: queryFunction
+    // const { isLoading, error, data } = useQuery<StockData[], Error>({
+    //     queryKey: ['allStocks'],
+    //     queryFn: queryFunction
+    // })
 
-
-    })
-
-    const sortedStocks = data?.sort((a: StockData, b: StockData) => {
+    const sortedStocks = props.data.sort((a: StockData, b: StockData) => {
         if (activeTrend === 'mostActive') {
             return b.volume - a.volume
         } else if (activeTrend === 'gainers') {
@@ -35,12 +33,12 @@ function MarketTrends() {
     }).slice(0, 11)
     const displayStocks = sortedStocks || []
 
-    if (isLoading) {
-        return <div>Loading...</div>
-    }
-    if (error) {
-        console.error(error.message)
-    }
+    // if (isLoading) {
+    //     return <div>Loading...</div>
+    // }
+    // if (error) {
+    //     console.error(error.message)
+    // }
     return (
         <div>
             <h4>Market trends</h4>

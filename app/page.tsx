@@ -42,10 +42,10 @@ export default function Home() {
     <>
       <Header />
 
-      <MarketList />
+      <MarketList data={data.results} />
       <NewSearchBar />
       <HeroSection data={data.results} />
-      <MarketTrends />
+      <MarketTrends data={data.results} />
     </>
   );
 }
