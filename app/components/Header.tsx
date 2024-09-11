@@ -11,10 +11,10 @@ export default function Header() {
 
     return (
         <header>
-            <nav className="h-12 flex gap-7 items-center px-8 py-2">
+            <nav className="h-16 flex gap-7 items-center px-8 py-2">
 
                 <button onClick={handleClick}
-                    className="flex flex-col justify-center items-center w-9 h-9  hover:bg-stone-100 rounded-2xl" aria-expanded="false" aria-label="Main menu" role="button" tabIndex="0">
+                    className="flex flex-col justify-center items-center w-9 h-9  hover:bg-stone-100 rounded-2xl" aria-expanded="false" aria-label="Main menu" role="button" tabIndex={0}>
                     <span className={`bg-stone-900 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`} >
                     </span>
                     <span className={`bg-stone-900 block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`} >
@@ -25,7 +25,7 @@ export default function Header() {
                 </button>
 
 
-                <h1 className="text-2xl font-bold cursor-pointer">Paper Trading App</h1>
+                <h1 className="text-2xl text-slate-800 font-medium cursor-pointer">Finance</h1>
             </nav>
             <hr />
             <div className='flex   px-8 py-3  justify-center align-middle'>
